@@ -1,0 +1,27 @@
+{
+  "name": "wheather-app-assessment",
+  "version": "1.0.0",
+  "description": "FrontEnd javascript assesment",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Vasile H",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasiharg/Weather-app-asessment.git"
+  },
+  "keywords": [
+    "weather",
+    "app"
+  ],
+  "bugs": {
+    "url": "https://github.com/vasiharg/Weather-app-asessment/issues"
+  },
+  "homepage": "https://github.com/vasiharg/Weather-app-asessment#readme"
+}
