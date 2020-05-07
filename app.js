@@ -1,6 +1,5 @@
 const search = document.getElementById('search'),
     submit = document.getElementById('submit'), 
-    random = document.getElementById('random'), 
     daysElem = document.getElementById('days'), 
     resultHeading = document.getElementById('result-heading'),
     singleDayEl = document.getElementById('single-day');
@@ -20,7 +19,7 @@ function weatherForecast(e) {
         const apiKey = "4d8fb5b93d4af21d66a2948710284366";
         const unit = "metric";
         const url = `http://api.openweathermap.org/data/2.5/forecast?q=${term}&appid=${apiKey}&units=${unit}`;
-        
+        console.log(url);
         //fetch the URL
         fetch(url)//fetch returns an object as Promise 
         .then(res => res.json()) //.json() will just return the body as promise with json content.

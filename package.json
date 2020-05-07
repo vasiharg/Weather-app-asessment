@@ -1,15 +1,21 @@
 {
   "name": "wheather-app-assessment",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.16.1",
+    "npm": "6.14.5"
+  },
   "description": "FrontEnd javascript assesment",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node server.js"
   },
   "author": "Vasile H",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "^2.0.3"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3",
+    "yarn": "^1.22.4"
   },
   "devDependencies": {},
   "repository": {
